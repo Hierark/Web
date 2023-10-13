@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgb(148, 74, 10), rgb(220, 220, 188), rgb(220, 220, 188), rgb(0, 0, 0));
+    
+}
+
+.geral{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    width: 21%;
+}
+
+fieldset{
+    border: 3px solid rgb(148, 76, 14);
+    font-size: larger;
+}
+
+legend{
+    border: 1px solid rgb(148, 76, 14);
+    padding: 0.8rem;
+    text-align: center;
+    background-color: rgb(148, 74, 10);
+    border-radius: 0.3rem;
+}
+
+.input_box{
+    position: relative;
+    color: rgb(217, 214, 214);
+}
+
+.input_user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 100%;
+}
+
+#submit{
+    
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(187, 187, 167), rgb(148, 74, 10));
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 0.8rem;
+
+}
